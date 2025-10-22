@@ -1,0 +1,25 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual envs
+.venv/
+env/
+
+# App data / debug
+data/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.html
+.pwstate/
+
+# Local config (keep example only)
+config.toml
+
+# Docker
+*.tar

@@ -1,0 +1,16 @@
+[site]
+# Cricket lobby (category 4)
+start_url = "https://www.radheexch.xyz/game/4"
+
+[scrape]
+interval_seconds = 5          # run every 20s (site updates ~2s; tune as needed)
+headless = false
+max_matches = 12
+
+[io]
+outfile = "data/live_cricket.json"
+tempfile = "data/live_cricket.tmp.json"
+
+[network]
+# If you log in once and export Playwright storage state, set this path:
+storage_state = "data/storage_state.json"

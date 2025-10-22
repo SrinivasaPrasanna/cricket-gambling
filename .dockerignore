@@ -1,0 +1,12 @@
+﻿.venv
+__pycache__/
+*.pyc
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.log
+data/
+.pwstate/
+socket_svc/
+.DS_Store
